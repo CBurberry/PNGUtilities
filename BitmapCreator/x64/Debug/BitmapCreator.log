@@ -1,0 +1,25 @@
+﻿main.obj : error LNK2019: unresolved external symbol png_create_read_struct referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_create_write_struct referenced in function "void __cdecl split_tilemap(char *,int)" (?split_tilemap@@YAXPEADH@Z)
+main.obj : error LNK2019: unresolved external symbol png_set_longjmp_fn referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_create_info_struct referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_write_info referenced in function "void __cdecl split_tilemap(char *,int)" (?split_tilemap@@YAXPEADH@Z)
+main.obj : error LNK2019: unresolved external symbol png_read_info referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_set_strip_16 referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_read_update_info referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_read_image referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_write_image referenced in function "void __cdecl split_tilemap(char *,int)" (?split_tilemap@@YAXPEADH@Z)
+main.obj : error LNK2019: unresolved external symbol png_write_end referenced in function "void __cdecl split_tilemap(char *,int)" (?split_tilemap@@YAXPEADH@Z)
+main.obj : error LNK2019: unresolved external symbol png_destroy_read_struct referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_init_io referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_malloc referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_get_rowbytes referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_get_image_width referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_get_image_height referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_get_bit_depth referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_get_color_type referenced in function "void __cdecl read_RGBA_data(char *,struct image_data &)" (?read_RGBA_data@@YAXPEADAEAUimage_data@@@Z)
+main.obj : error LNK2019: unresolved external symbol png_set_IHDR referenced in function "void __cdecl split_tilemap(char *,int)" (?split_tilemap@@YAXPEADH@Z)
+D:\GithubRepos\PNGUtilities\BitmapCreator\lib\libpng.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+D:\GithubRepos\PNGUtilities\BitmapCreator\lib\libpngd.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+D:\GithubRepos\PNGUtilities\BitmapCreator\lib\zlibstat.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+D:\GithubRepos\PNGUtilities\BitmapCreator\lib\zlibstatd.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+D:\GithubRepos\PNGUtilities\x64\Debug\BitmapCreator.exe : fatal error LNK1120: 20 unresolved externals
